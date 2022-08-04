@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3d64e6;
+    font-family: Tahoma, Arial;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 15px;
+    width: 600px;
+    background-color: #f3f4f7;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #081541;
+}
+
+.search-warpper {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.search-warpper input {
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid #3d64e6;
+    padding: 10px;
+    outline: none;
+    font-size: 18px;
+    background-color: #f3f4f7;
+}
+
+.search-warpper button {
+    width: 20%;
+    background-color: #3d64e6;
+    color: #f3f4f7;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.result .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+.result .info h2 {
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.result .info .flag-img {
+    width: 50%;
+}
+
+.result .data {
+    line-height: 30px;
+    padding: 15px;
+}
+
+.result .data span {
+    color: #686565;
+    font-weight: 100;
+}
+
+.result .valid {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
